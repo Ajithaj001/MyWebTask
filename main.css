@@ -1,0 +1,321 @@
+ header{
+	background-color: #FAF9F6;
+	padding: 20px;
+}
+ p{
+	display: inline-block;
+	color: black;
+	margin-top: 1px;
+}
+
+	
+
+
+.location {
+	float: left;
+	margin-left: 0px;
+}
+.contact{
+	float: right;
+	margin-left: 20px;
+
+
+
+}
+.time{
+	float: left;
+	margin-left: 30px;
+}
+
+
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 109px;
+	padding-right: 0%;
+	margin-top: -69px;
+	
+	float: right;
+
+	
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;;
+	padding: 10px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+nav ul li a:hover{
+	color: #4CAF50;
+	transition: .3s;
+}
+
+nav ul li .Rbtn{
+	border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 15px 32px;
+}
+/*.lfs{
+	background:url(tg.jpg);
+	margin-top: 50px;
+	float: left;
+	padding: 220px;
+	width: 271px;
+	margin-left: 20px;
+	margin-top: 14px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+
+}
+.lfs h2{
+	color: white;
+	padding-top: 10px;
+
+}
+.rfs{
+	float: right;
+	background-color: red;
+	padding:240px;
+	margin-right: 20px;
+	width: 231px;
+	margin-top: 10px;
+}*/
+
+.bgone{
+	background:url(tg.jpg);
+	padding: 19px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+/*.bgTwo{
+	background-color: blue;
+
+}*/
+.LinkVd a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.LinkVd button{
+	border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 15px 32px;
+
+}
+.LinkVd i{
+	color: #4CAF50
+}
+
+.carousel-item active img{
+	float: right;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+table.one{
+	table-layout: fixed;
+}
+.Visit{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.Sqr img{
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+.Visit .Lmr {
+	border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 15px 32px;
+	text-decoration: none;
+	margin-left: 40px;
+}
+.Visit ul li {
+	list-style-type: none;
+}
+.four{
+	background-color: white;
+}
+.ExpAn{
+	border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 25px 42px;
+	text-decoration: none;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+
+	
+
+}
+ .Grid .MoreAn{
+	border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 10px 12px;
+	text-decoration: none;
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+.five .ImageGrid{
+	min-height: 100vh;
+	overflow-x: hidden;
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	margin-top: 10px;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+
+
+
+
+}
+.five .ImageGrid img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.Vst{
+	margin-top: 750px;
+	background:url(cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+}
+
+.Vst .
+
+ .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 100px;
+      }
+      .seven{
+      	background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 20px;
+        position: relative;
+        height: 100%;
+        margin-top: 100px;
+      }
+      .rounded mx-auto d-block{
+      	padding: 20px;
+      }
+      .seven img{
+      	display: block;
+      	margin-left: auto;
+      	margin-right: auto;
+      	margin-top: 1px;
+      	border-radius: 50%;
+      	border:5px solid #4CAF50;
+      }
+       .eight {
+      	background: url(footer.jpg);
+      	background-repeat: no-repeat;
+      	background-size: 1500px 500px;
+      }
+
+      .Signup{
+      border:none;
+	background-color: #4CAF50;
+	color: white;
+	display: inline-block;
+	padding: 6px 12px;
+}
+
+@media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    color: black;
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    width: 400px;
+    height: 400px;
+   
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    width: 400px;
+    height: 400px;
+   
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    width: 400px;
+    height: 400px;
+   ;
+  }
+}
